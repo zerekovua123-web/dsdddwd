@@ -1,23 +1,13 @@
-4.10
-import math
+4.22
 
-radius = 2
+num = int(input("Введите натуральное число: "))
 
-side = 4
+if num % 2 == 0:
+    print(f"Число {num} является ЧЁТНЫМ.")
+else:
+    print(f"Число {num} является НЕЧЁТНЫМ.")
 
-circle_area = 2
-square_area = 4
-
-radios = float(input(" радиус крука: ")
-side = float(input(" сторона квадрата: ")
-
-circle_area = math.pi * radius
-square_area = side ** 4
-
-if circle_area < square_area:
-    print(cторона квадрата больше радиуса круга)
-if circle_area > square_area:
-    print(радиус больше квадрата)
-    print (одинаковые)
-
-  
+if num % 10 == 7:
+    print(f"Число {num} оканчивается на цифру 7.")
+else:
+    print(f"Число {num} не оканчивается на цифру 7.")
